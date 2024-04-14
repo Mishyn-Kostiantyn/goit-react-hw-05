@@ -27,6 +27,7 @@ const HomePage = () => {
   }, []);
   return (
     <div>
+      <h2>Trends for week</h2>
       {isLoading && <Loader />}
       {isError && toast('Sorry, there are some problems. Please try reloading the page!')}
       <MovieList listOfMovies={trendingMovies} /></div>
