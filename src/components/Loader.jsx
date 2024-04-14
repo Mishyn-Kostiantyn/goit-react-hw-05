@@ -1,5 +1,5 @@
-import React from 'react'
-import css from './Loader.module.css';
+
+
 import { ColorRing } from 'react-loader-spinner';
 const Loader = () => {
   return (
